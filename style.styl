@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans")
+
+/* Paper CSS based off two designs
+ * http://css3.wikidot.com/blog:lined-paper-with-css
+ * https://coderwall.com/p/fw_b4q/notebook-paper-css
+ */
+.paper
+  font-family: 'Open Sans', sans-serif
+  font-size: 14px
+  line-height: 30px
+  color: #444
+  padding: 37px 55px 30px
+  margin 0 auto 10px
+  max-width: 400px
+  position: relative
+  border: 1px solid #b5b5b5
+  background: #fff
+  background: linear-gradient(top, #dfe8ec 0%, #fff 8%) 0 57px
+  border-radius: 2px
+  /* This is the lines on page */
+  background-size: 100% 30px
+  &::after
+    content: ''
+    position: absolute
+    width: 0px
+    top: 0
+    left: 39px
+    bottom: 0
+    border-left: 1px solid #f8d3d3
+  p
+    margin: 30px 0 0 0
+  p:nth-child(1)
+    margin: 0
