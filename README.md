@@ -17,6 +17,7 @@ Copy and paste onto server.
 ## Authors
 
 * [**Sparcut**](https://github.com/sparcut)
+* [**Wes Bos**](https://github.com/wesbos) - _Initial concepts from [JavaScript30 course](https://javascript30.com/)_
 
 ## License
 
